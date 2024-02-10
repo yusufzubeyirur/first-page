@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <button>Formun Dışında</button>
+      <form action="/food">
+      <button type="button">Lütfen beni gönderme</button>
+
+      <label for="userName">Kullanıcı Adı Giriniz:</label>
+      <input placeholder="Kullanıcı Adı" id="userName" name="userName" />
+      <label for="password">Kullanıcı Adı Giriniz:</label>
+      <input type="password" id="password" placeholder="Şifre Giriniz" name="password"/>
+      <input type="color" />
+      <input type="number" />
+     
+      <label>
+        Sayı Giriniz
+        <input type="number" />
+      </label>
+      
+      <button>Gönder</button>
+      <input type="submit" value="Yollayın" />
+    </form>
+    
+  <hr/>
+  <form action="https://www.reddit.com/search/">
+  <label for="search">Redditte ara</label>
+  <input type="text" id="search" name="q"/>
+  <button>Search</button>
+    </form>
+  <hr>
+  <form action="https://www.google.com/search"/>
+  <label for="search">Googleda ara</label>
+  <input type="text" id="search" name="q"/>
+  <button>Search</button>
+  </form>
+  
+  <hr>
+  <form action="w.youtube.com/results">
+  <label for="results">Youtubede Ara</label>
+  <input type="text" id="results" name="search_query" />
+  <button>Search</button>
+  </form>
+  
+  <h2>Daha Fazla Form</h2>       
+<form action="/birds">
+  <input type="checkbox" name="tos" id="agree" checked />
+  <label for="agree">Kabul Ediyorum</label>
+  <p>
+    <label for="xs">XS:</label>
+    <input type="radio" name="size" id="xs" value="xs" />
+    <label for="s">S:</label>
+    <input type="radio" name="size" id="s" value="s"/>
+    <label for="m">M:</label>
+    <input type="radio" name="size" id="m" value="m"/>
+  </p>
+  <div>
+   <p>
+     <label for=""></label>
+     <input type="text">
+     <select name="" id=""></select>
+   </p>
+    </div>
+  
+  <div>
+    <p>
+      <label for="amount">Evdeki Peynir Miktarı</label>
+      <input type="range" min="1" max="10" name="chesee" id="amount"
+             step="2" value="8"/>
+    </p>
+  </div>
+  <p>
+    <label for="wish">Özel İstek</label>
+  <textarea placeholder="Buraya bir şeyler yazın" name="wish" id="wish" cols="40" rows="20"></textarea>
+  </p>
+  
+  
+
+
+  
+  
+  <buttton>Yolla</buttton>
+</form>
+</body>
+</html>
